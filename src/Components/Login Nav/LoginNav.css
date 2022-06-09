@@ -1,0 +1,76 @@
+#mainDiv {
+  display: flex;
+  height: 10vh;}
+
+.logo {
+  display: flex;
+  align-items: center;}
+
+.logo img {
+  width: 10rem;
+  margin: 2rem;}
+
+.navButtons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 1rem;}
+
+.navButtons button {
+  padding: 0.5rem;
+  margin: .5rem;
+  border-radius: 2rem;
+  width: 8rem;
+  background-color: #3f0e40;
+  color: #FFF;}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 0.5rem;
+  cursor: pointer;}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 0.5rem;
+  cursor: pointer;}
+
+.navButton a {
+  width: 6rem;
+  font-size: 18px;
+  background-color: #350d36;
+  color: #FFF;
+  text-align: center;
+  font-weight: bold;}
+
+.navButtons:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;}
+
+/* -- Navvigation Bar Main -- */
+
+#main > .logo img {
+  width: 6rem;
+  margin: 2rem;}
+
+#main > .navButtons button {
+  padding: 0.2rem;
+  margin: .5rem;
+  width: 8rem;
+  background-color: #350d36;
+  color: #FFF;}
+
+#mainDiv > .nav h2 a {
+  padding: 0.2rem;
+  margin: .5rem;
+  width: 8rem;
+  color: #350d36;
+  text-decoration: none !important;}

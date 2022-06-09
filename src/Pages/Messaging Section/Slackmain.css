@@ -1,0 +1,293 @@
+#main {
+  display: flex;
+  height: 6vh;
+  background-color: #350d36;
+}
+
+.section-one {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  height: 91vh;
+  background-color: #3f0e40;
+  color: #fff;
+}
+
+/* Messaging Section */
+
+.section-two {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 91vh;
+  background-color: #f2f2f2;
+}
+
+.section-two > div > p {
+  color: #3f0e40;
+  font-weight: bold;
+  margin-left: 1.7rem;
+}
+
+h2 {
+  margin-right: 0.5rem;
+}
+
+.status {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.green {
+  background-color: #58b666;
+}
+
+.blue {
+  background-color: #6fbced;
+  margin-right: 0;
+  margin-left: 7px;
+}
+
+#chat {
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow-y: auto;
+  height: 29rem;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+#chat li {
+  padding: 10px 30px;
+}
+
+#chat h2,
+#chat h3 {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#chat h3 {
+  color: #bbb;
+}
+
+#chat .entete {
+  margin-bottom: 5px;
+}
+
+#chat .message {
+  padding: 0.5rem;
+  color: #fff;
+  line-height: 25px;
+  max-width: 90%;
+  display: inline-block;
+  text-align: left;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+#chat .me {
+  text-align: right;
+}
+
+#chat .you .message {
+  background-color: #58b666;
+}
+
+#chat .me .message {
+  background-color: #6fbced;
+}
+
+#chat .triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+}
+
+#chat .you .triangle {
+  border-color: transparent transparent #58b666 transparent;
+  margin-left: 2rem;
+}
+
+#chat .me .triangle {
+  border-color: transparent transparent #6fbced transparent;
+  margin-left: 51.5rem;
+}
+
+.msgFooter {
+  height: 10vh;
+  padding: 2rem;
+}
+
+.msgFooter textarea {
+  resize: none;
+  border: 2px solid lightgray;
+  display: block;
+  width: 95%;
+  height: 5vh;
+  border-radius: 0.5rem;
+  padding: 20px;
+  font-size: 13px;
+}
+
+.msgFooter textarea::placeholder {
+  color: #ddd;
+}
+
+.msgFooter img {
+  height: 30px;
+  cursor: pointer;
+}
+
+.msgFooter a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #6fbced;
+  vertical-align: top;
+  float: right;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+/* Chanel Members List */
+
+.section-three {
+  float: left;
+  width: 21%;
+  padding: 10px;
+  height: 91vh;
+  background-color: #3f0e40;
+  color: #fff;
+}
+
+.tblList img {
+  width: 0.8rem;
+  margin-right: 0.3rem;
+}
+
+.tblList a {
+  cursor: pointer;
+}
+
+.tblList {
+  height: max-content;
+  overflow: auto;
+}
+
+.hr {
+  border-top: 0.09rem solid #fff;
+  margin: 20px 0;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.lists {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+.lists td,
+.lists th {
+  padding: 8px;
+}
+
+.lists tr:hover {
+  background-color: #671769;
+}
+
+.lists th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: #fff;
+}
+
+.a th {
+  text-align: center;
+}
+
+.search_users {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+  color: #fff;
+}
+
+.search_button {
+  margin: 0 1rem;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 0.4rem;
+}
+
+.search_button1 {
+  border-radius: 0.3rem;
+  float: right;
+}
+
+.bg_search {
+  background-color: #671769;
+  border-radius: 0.5rem;
+}
+
+.add_button {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.message_button {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.box {
+  background-color: #67176999;
+  border-radius: 0.5rem;
+  height: 90vh;
+}
